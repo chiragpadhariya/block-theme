@@ -1,0 +1,29 @@
+.logos {
+  background-color: #ffffff;
+}
+
+.logos__inner {
+  padding: 60px 0;
+}
+
+.logos__inner_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logos__inner_box button {
+  border: 0;
+  color: red !important;
+  top: 15px;
+  position: absolute;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=editor.css.map */

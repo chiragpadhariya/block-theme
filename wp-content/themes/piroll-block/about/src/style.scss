@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ .about-us {
+    &__inner {
+        padding: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &_details {
+            &--heading {
+                h2 {
+                    font-size: 30px;
+                    line-height: 35px;
+                    color: #191919;
+                    font-family: "Montserrat";
+                    font-weight: 550!important;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+            &--text {
+                padding: 10px 0 40px 0;
+                P {
+                    font-size: 16px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #787878;
+                }
+            }
+            &--autograph {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    align-items: center;
+                    display: flex;
+                }
+            }
+        }
+    }
+}

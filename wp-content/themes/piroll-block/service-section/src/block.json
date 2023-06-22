@@ -1,0 +1,163 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/service-section",
+	"version": "0.1.0",
+	"title": "Service Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"mediaID01": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL01": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID02": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL02": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID03": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL03": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID04": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL04": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID05": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL05": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID06": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL06": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID07": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL07": {
+			"type": "string",
+			"default": null
+		},
+		"mediaID08": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL08": {
+			"type": "string",
+			"default": null
+		},
+		  "Heading01": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading02": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading03": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading04": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading05": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading06": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading07": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Heading08": {
+			"type": "string",
+			"source": "html",
+			"selector": "h6"
+		  },
+		  "Headingtext01": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext02": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext03": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext04": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext05": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext06": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext07": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  },
+		  "Headingtext08": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		  }
+	  },
+	"textdomain": "service-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/contact-info-section",
+	"version": "0.1.0",
+	"title": "Contact Info Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"Heading": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "h3"
+		},
+		"content": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "p"
+		},
+		"content1": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#contacts__inner_details1 "
+		},
+		"content2": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#contacts__inner_details2"
+		},
+		"content3": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#contacts__inner_details3"
+		}
+		,
+		"content4": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#contacts__inner_details4"
+		}
+	  },
+	"textdomain": "contact-info-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

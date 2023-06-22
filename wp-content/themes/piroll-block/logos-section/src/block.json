@@ -1,0 +1,59 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/logos-section",
+	"version": "0.1.0",
+	"title": "Logos Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"mediaID01": {
+			"type": "number",
+			"default": ""
+		},
+		"mediaURL01": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaID02": {
+			"type": "number",
+			"default": ""
+		},
+		"mediaURL02": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaID03": {
+			"type": "number",
+			"default": ""
+		},
+		"mediaURL03": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaID04": {
+			"type": "number",
+			"default": ""
+		},
+		"mediaURL04": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaID05": {
+			"type": "number",
+			"default": ""
+		},
+		"mediaURL05": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "logos-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

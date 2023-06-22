@@ -1,0 +1,162 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.about-us__inner {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .about-us__inner {
+    padding: 90px 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about-us__inner {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__inner {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-us__inner {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-us__inner {
+    padding: 50px 0;
+  }
+}
+
+.about-us__inner_details--heading h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #191919;
+  font-family: "Montserrat";
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+  .about-us__inner_details--heading h2 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__inner_details--heading h2 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-us__inner_details--heading h2 {
+    font-size: 21px;
+    line-height: 26px;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-us__inner_details--heading h2 {
+    font-size: 19px;
+    line-height: 23px;
+    margin: 0 10px;
+  }
+}
+
+.about-us__inner_details--text {
+  padding: 10px 0 40px 0;
+}
+
+.about-us__inner_details--text P {
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #787878;
+}
+
+@media screen and (max-width: 991px) {
+  .about-us__inner_details--text P {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__inner_details--text P {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-us__inner_details--text P {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-us__inner_details--text P {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__inner_details--text P br {
+    display: none;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.about-us__inner_details--autograph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us__inner_details--autograph button {
+  color: red;
+  border: 0;
+  background-color: white;
+  position: absolute;
+  text-decoration: none !important;
+}
+/*# sourceMappingURL=style.css.map */

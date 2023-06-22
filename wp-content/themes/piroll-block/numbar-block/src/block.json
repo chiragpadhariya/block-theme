@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/numbar-block",
+	"version": "0.1.0",
+	"title": "Numbar Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+        "Heading": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        },
+        "Content01": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        },
+        "buttonText": {
+            "type": "string",
+            "source": "text",
+            "selector": "a.button"
+        },
+        "mediaID": {
+            "type": "number",
+            "default": null
+        },
+        "mediaURL": {
+            "type": "string",
+            "default": null
+        }
+    },
+	"textdomain": "numbar-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/about-need-a-project",
+	"version": "0.1.0",
+	"title": "About Need A Project",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"Heading": {
+			"type": "string",
+			"source": "html",
+			"selector": "h5"
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"buttonText": {
+			"type": "string",
+			"source": "text",
+			"selector": ".button-text"
+		},
+		"buttonURL": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "href"
+		}
+	},
+	"textdomain": "about-need-a-project",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,55 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.numbar {
+	background-color: #10c9c3;
+
+	&__inner {
+		padding: 100px 0;
+
+		&_deatils {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: start;
+			width: 100%;
+		}
+
+		&_box {
+			width: 25%;
+			display: flex;
+
+			&--image {
+				padding-top: 30px;
+				img {
+					padding-right: 25px;
+					display: flex;
+					align-items: center;
+				}
+			}
+
+			&--detail {
+				&-digit {
+					color: white;
+					font-size: 18px;
+					line-height: 23px;
+					font-family: "Montserrat";
+					font-weight: 500;
+
+
+					&-text {
+						color: white;
+						font-size: 12px;
+						line-height: 22px;
+						font-family: "Montserrat";
+						font-weight: 500;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

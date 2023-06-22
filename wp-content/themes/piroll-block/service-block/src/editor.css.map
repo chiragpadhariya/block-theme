@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;GAIG;AAMH,AAAA,kCAAkC,CAAA;EAC9B,QAAQ,EAAE,QAAQ;CAKrB;;AAND,AAEI,kCAF8B,CAE9B,MAAM,CAAA;EACF,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAG;CACX",
+    "sources": [
+        "editor.scss",
+        "../../assets/css/variable/variable.scss"
+    ],
+    "names": [],
+    "file": "editor.css"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/map-section",
+  "version": "0.1.0",
+  "title": "Map Section",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "map-section",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "create-block/about",
+    "version": "0.1.0",
+    "title": "About",
+    "category": "widgets",
+    "icon": "id",
+    "description": "Example block scaffolded with Create Block tool.",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "Heading": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        },
+        "Content01": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        },
+        "buttonText": {
+            "type": "string",
+            "source": "text",
+            "selector": "a.button"
+        },
+        "mediaID": {
+            "type": "number",
+            "default": null
+        },
+        "mediaURL": {
+            "type": "string",
+            "default": null
+        }
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

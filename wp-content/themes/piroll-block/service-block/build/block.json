@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/service-block",
+  "version": "0.1.0",
+  "title": "Service Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "source": "html",
+      "selector": "h6"
+    },
+    "Content01": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "mediaID": {
+      "type": "number",
+      "default": null
+    },
+    "mediaURL": {
+      "type": "string",
+      "default": null
+    }
+  },
+  "textdomain": "service-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

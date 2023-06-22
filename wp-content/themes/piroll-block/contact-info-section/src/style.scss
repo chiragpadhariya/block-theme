@@ -1,0 +1,382 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+
+.contacts {
+    background-color: #f5f5f5;
+
+    &__inner {
+        padding: 100px 0;
+
+        @include max-1199 {
+            padding: 90px 0;
+        }
+
+        @include max-991 {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        @include max-767 {
+            padding: 70px 0;
+        }
+
+        @include max-575 {
+            padding: 60px 40px;
+        }
+
+        @include max-425 {
+            padding: 50px 10px;
+        }
+
+        &_heading {
+            h3 {
+                font-family: "Montserrat";
+                font-weight: 600;
+                font-size: 30px!important;
+                line-height: 35px;
+                color: #171717!important;
+                padding-bottom: 15px;
+                margin-top: 0!important;
+
+                @include max-1199 {
+                    font-size: 28px;
+                    line-height: 33px;
+                }
+
+                @include max-767 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        &_text {
+            p {
+                font-family: "NunitoSans-Regular";
+                font-size: 16px!important;
+                line-height: 28px;
+                color: #787878!important;
+                padding-bottom: 14px;
+
+                @include max-1199 {
+                    font-size: 15px;
+                    line-height: 26px;
+                }
+
+                br {
+                    @include max-575 {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &_details {
+
+            p {
+                font-size: 16px!important;
+                line-height: 22px;
+                color: #171717!important;
+                font-family: "NunitoSans-Regular";
+                font-weight: bold;
+                padding: 5px 0;
+
+                @include max-1199 {
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+
+                a {
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-decoration: none;
+                    color: #787878;
+
+                    @include max-1199 {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    &__form {
+        @include max-991 {
+            padding-top: 50px!important; 
+        }
+
+        .Project__inner_form--details-name,
+        .Project__inner_form--details-email {
+            input {
+                width: 94%!important; 
+
+                @include max-575 {
+                    width: 90%;
+                }
+
+                @include max-425 {
+                    width: 100%;
+                }
+            }
+        }
+
+        .Project__inner_form--submit {
+            display: block!important; 
+        }
+    }
+}
+
+//contact page details end
+
+//Need a Project start
+
+.Project {
+    background-color: #f5f5f5;
+
+    &__inner {
+        padding: 100px 0;
+
+        @include max-1199 {
+            padding: 80px 0;
+        }
+
+        @include max-991 {
+            padding: 60px 0 70px 0;
+        }
+
+        @include max-575 {
+            padding: 60px 0 60px 0;
+        }
+
+        @include max-425 {
+            padding: 40px 0 50px 0;
+        }
+
+        display: flex;
+        justify-content: center;
+
+        &_heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h5 {
+                color: #1d1d1d;
+                font-size: 30px;
+                line-height: 35px;
+                font-family: "Montserrat";
+                font-weight: 700;
+                padding-bottom: 20px;
+
+                @include max-991 {
+                    font-size: 28px;
+                    line-height: 30px;
+                }
+
+                @include max-767 {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+
+                @include max-575 {
+                    font-size: 25px;
+                    line-height: 28px;
+                }
+
+                @include max-425 {
+                    font-size: 23px;
+                    line-height: 28px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        &_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 25px;
+
+            p {
+                font-family: "NunitoSans-Regular";
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                color: #787878;
+                padding-bottom: 15px;
+
+                @include max-991 {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+
+                @include max-767 {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                @include max-575 {
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+
+                @include max-425 {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                br {
+                    @include max-575 {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &_form {
+            @include max-575 {
+                padding: 0px 25px;
+            }
+
+            @include max-575 {
+                padding: 0px 15px;
+            }
+
+            &--details {
+                display: flex;
+                padding-bottom: 20px;
+
+                @include max-991 {
+                    padding-bottom: 17px;
+                }
+
+                @include max-425 {
+                    display: block;
+                }
+
+                &-name {
+                    input {
+                        margin-right: 20px;
+                        padding: 7px 20px;
+                        border: 1px solid #ffffff;
+
+                        @include max-991 {
+                            width: 93%;
+                        }
+
+                        @include max-425 {
+                            width: 100%;
+                            margin-left: 0px;
+                            padding: 7px 20px;
+                            margin-bottom: 10px;
+                        }
+
+                        &::placeholder {
+                            color: #787878;
+                        }
+                    }
+                }
+
+                &-email {
+                    input {
+                        @include max-991 {
+                            width: 93%;
+                        }
+
+                        @include max-575 {
+                            width: 90%;
+                        }
+
+                        @include max-425 {
+                            width: 100%;
+                            margin-left: 0px;
+                            padding: 7px 20px;
+                        }
+
+                        margin-left: 20px;
+                        padding: 7px 20px;
+                        border: 1px solid #ffffff;
+
+                        &::placeholder {
+                            color: #787878;
+                        }
+                    }
+                }
+            }
+
+            &--title {
+                padding-bottom: 20px;
+
+                input {
+                    width: 100%;
+                    padding: 7px 20px;
+                    border: 1px solid #ffffff;
+
+                    &::placeholder {
+                        color: #787878;
+                    }
+                }
+            }
+
+            &--commant {
+                padding-bottom: 20px;
+
+                textarea {
+                    width: 100%;
+                    padding: 7px 20px;
+                    border: 1px solid #ffffff;
+                    color: #787878;
+
+                    &::placeholder {
+                        color: #787878;
+                    }
+                }
+            }
+
+            &--submit {
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+
+                input {
+                    padding: 15px 27px;
+                    text-transform: uppercase;
+                    font-family: "Montserrat";
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 12px;
+
+                    @include max-991 {
+                        font-size: 11px;
+                        line-height: 11px;
+                    }
+
+                    @include max-425 {
+                        font-size: 10px;
+                        line-height: 10px;
+                    }
+
+                    color: white;
+                    background-color: #10c9c3;
+                    border: 2px solid #10c9c3;
+
+                    &:hover {
+                        background-color: #39b4af;
+                        transition: all 10ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Need a Project 

@@ -1,0 +1,227 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.banner {
+  background-color: #e9e9e9;
+}
+
+.banner__inner {
+  padding: 140px 0 200px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 1199px) {
+  .banner__inner {
+    padding: 110px 0 160px 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner__inner {
+    padding: 90px 0 140px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__inner {
+    padding: 80px 0 120px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner {
+    padding: 70px 20px 90px 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__inner {
+    padding: 50px 20px 85px 20px;
+  }
+}
+
+.banner__inner_heading h1 {
+  font-size: 38px;
+  line-height: 42px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #1d1d1d;
+  padding-bottom: 15px;
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1199px) {
+  .banner__inner_heading h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner__inner_heading h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__inner_heading h1 {
+    font-size: 27px;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner_heading h1 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner_heading h1 {
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 0px;
+  }
+}
+
+.banner__inner_text p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Montserrat";
+  color: #787878;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1199px) {
+  .banner__inner_text p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner__inner_text p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__inner_text p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner_text p {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__inner_text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.banner__inner_button {
+  padding: 25px 0 0px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .banner__inner_button {
+    padding: 25px 0 0px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__inner_button {
+    padding: 18px 0 0px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner_button {
+    padding: 15px 0 0px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__inner_button {
+    padding: 10px 0 0px 0;
+  }
+}
+
+.banner__inner_button a {
+  text-transform: uppercase;
+  border: 0;
+  background-color: #0fc9c3;
+  padding: 18px 60px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.banner__inner_button a:hover {
+  background-color: #10c9aa;
+  -webkit-transition: all 10ms;
+  transition: all 10ms;
+}
+
+@media screen and (max-width: 1199px) {
+  .banner__inner_button a {
+    padding: 18px 63px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner__inner_button a {
+    padding: 17px 55px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__inner_button a {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 14px 42px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__inner_button a {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__inner_button a {
+    padding: 14px 32px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @import "../../assets/css/variable/variable.scss";
+
+//testimonial section start
+.testimonial {
+    background-color: #10c9c3;
+
+    &__inner {
+        &_slider {
+            &--box {
+				position: relative;
+                &-heading {
+                    h4 {
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: white!important;
+                        font-family: "Montserrat-medium";
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+						padding-top: 110px;
+
+                        @include max-1199 {
+                            font-size: 22px;
+                            line-height: 30px;
+                        }
+
+                        @include max-991 {
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+
+                        @include max-767 {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+
+                        @include max-575 {
+                            font-size: 17px;
+                            line-height: 24px;
+                        }
+
+                        br {
+                            @include max-575 {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                &-client {
+                    p {
+                        font-size: 12px;
+                        line-height: 17px;
+                        font-family: "Montserrat-medium";
+                        color: white;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        padding-top: 20px;
+                        padding: 30px 0 120px 0;
+                        text-transform: uppercase;
+					
+                        @include max-1199 {
+                            padding: 20px 0 110px 0;
+                        }
+
+                        @include max-991 {
+                            padding: 20px 0 90px 0;
+                        }
+
+                        @include max-767 {
+                            font-size: 11px;
+                            padding: 20px 0 80px 0;
+                        }
+
+                        @include max-575 {
+                            padding: 20px 0 70px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.slick-dots{
+	background-color: #10c9c3;
+	border-top: 2px solid #10c9c3;	 
+	position: absolute!important;
+	bottom: 35px!important;
+	
+}
+.slick-next {
+	display: none!important;
+}
+.slick-arrow{
+	display: none!important;
+}

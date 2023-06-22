@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.about-us__inner_details--heading h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #191919;
+  font-family: "Montserrat";
+  font-weight: 600 !important;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=editor.css.map */

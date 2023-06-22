@@ -1,0 +1,22 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-banner-section {
+  border: 1px dotted #f00;
+}
+
+.banner__inner_button button {
+  text-transform: uppercase;
+  border: 0;
+  background-color: #0fc9c3;
+  padding: 24px 55px !important;
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 530 !important;
+  text-decoration: none;
+  color: white !important;
+}
+/*# sourceMappingURL=editor.css.map */

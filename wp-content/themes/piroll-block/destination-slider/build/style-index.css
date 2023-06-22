@@ -1,0 +1,104 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.testimonial {
+  background-color: #10c9c3;
+}
+.testimonial__inner_slider--box {
+  position: relative;
+}
+.testimonial__inner_slider--box-heading h4 {
+  font-size: 24px;
+  line-height: 32px;
+  color: white !important;
+  font-family: "Montserrat-medium";
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 110px;
+}
+@media screen and (max-width: 1199px) {
+  .testimonial__inner_slider--box-heading h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .testimonial__inner_slider--box-heading h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .testimonial__inner_slider--box-heading h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .testimonial__inner_slider--box-heading h4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .testimonial__inner_slider--box-heading h4 br {
+    display: none;
+  }
+}
+.testimonial__inner_slider--box-client p {
+  font-size: 12px;
+  line-height: 17px;
+  font-family: "Montserrat-medium";
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding: 30px 0 120px 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1199px) {
+  .testimonial__inner_slider--box-client p {
+    padding: 20px 0 110px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .testimonial__inner_slider--box-client p {
+    padding: 20px 0 90px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .testimonial__inner_slider--box-client p {
+    font-size: 11px;
+    padding: 20px 0 80px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .testimonial__inner_slider--box-client p {
+    padding: 20px 0 70px 0;
+  }
+}
+
+.slick-dots {
+  background-color: #10c9c3;
+  border-top: 2px solid #10c9c3;
+  position: absolute !important;
+  bottom: 35px !important;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,108 @@
+// variable
+@import "./assets/css/variable/variable.scss";
+
+// sidebar start
+.sidebar {
+    display: none;
+    width: 300px;
+    background-color: white;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0!important;
+    text-align: center;
+
+    ul {
+        @include max-767{
+            padding-left: 0;
+        }
+        li {
+            padding-top: 10px;
+
+            a {
+                font-size: 15px;
+                line-height: 20px;
+                font-weight: 400;
+                font-family: "proximanova";
+                text-transform: uppercase;
+                color: #293c46;
+                text-decoration: none;
+                justify-content: center;
+                padding-top: 20px;
+
+                &:hover {
+                    color: #293c46;
+                    transition: all 100ms;
+                }
+            }
+        }
+    }
+}
+
+.toggle--botton {
+    display: none;
+
+    @include max-767 {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        right: 56px;
+        top: 84px;
+        top: 0;
+        cursor:pointer;
+        @include max-575 {
+            padding: 0 20px;
+        }
+    }
+
+    @include max-767 {
+        right: 31px;
+    }
+}
+.sidebar-logo{
+    padding: 70px 0 20px 0;  
+    display: flex;
+    justify-content: center;
+}
+.sidebar-menu {
+    display: none;
+
+    @include max-767 {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+.sidebar--menu {
+    ul {
+        list-style: none;
+    }
+}
+
+.sidebar-menu-two {
+    display: block !important;
+}
+
+.close-sidebar {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+
+.close-sidebar {
+    .active {
+        display: block;
+    }
+}
+ .wp-block-navigation__responsive-container.is-menu-open {
+    background-color: #f1f1f1!important;
+    color: #000;
+}
+//sidebar end

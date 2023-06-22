@@ -1,0 +1,180 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+//banner start
+.banner {
+    background-color: #e9e9e9;
+    &__inner {
+        padding: 140px 0 200px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        @include max-1199 {
+            padding: 110px 0 160px 0;
+        }
+
+        @include max-991 {
+            padding: 90px 0 140px 0;
+        }
+
+        @include max-767 {
+            padding: 80px 0 120px 0;
+        }
+
+        @include max-575 {
+            padding: 70px 20px 90px 20px;
+        }
+
+        @include max-425 {
+            padding: 50px 20px 85px 20px;
+        }
+
+        &_heading {
+            h1 {
+                font-size: 38px;
+                line-height: 42px;
+                font-family: "Montserrat";
+                font-weight: 600;
+                color: #1d1d1d;
+                padding-bottom: 15px;
+                margin-bottom: 0!important;
+
+                @include max-1199 {
+                    font-size: 35px;
+                    line-height: 40px;
+                }
+
+                @include max-991 {
+                    font-size: 30px;
+                    line-height: 35px;
+                    padding-bottom: 15px;
+                }
+
+                @include max-767 {
+                    font-size: 27px;
+                    line-height: 32px;
+                    padding-bottom: 10px;
+                }
+
+                @include max-575 {
+                    font-size: 24px;
+                    line-height: 28px;
+                    padding-bottom: 5px;
+                }
+
+                @include max-575 {
+                    font-size: 21px;
+                    line-height: 26px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+        &_text {
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                font-family: "Montserrat";
+                color: #787878;
+                font-weight: 400;
+
+                @include max-1199 {
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+
+                @include max-991 {
+                    font-size: 16px;
+                    line-height: 21px;
+                }
+
+                @include max-767 {
+                    font-size: 15px;
+                    line-height: 21px;
+                }
+
+                @include max-575 {
+                    font-size: 14px;
+                    line-height: 20px;
+                    display: inline;
+                }
+
+                @include max-425 {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        &_button {
+            padding: 25px 0 0px 0;
+
+            @include max-991 {
+                padding: 25px 0 0px 0;
+            }
+
+            @include max-767 {
+                padding: 18px 0 0px 0;
+            }
+
+            @include max-575 {
+                padding: 15px 0 0px 0;
+            }
+
+            @include max-425 {
+                padding: 10px 0 0px 0;
+            }
+
+            a {
+                text-transform: uppercase;
+                border: 0;
+                background-color: #0fc9c3;
+                padding: 18px 60px;
+                font-family: "Montserrat";
+                font-size: 12px;
+                line-height: 17px;
+                font-weight: 600;
+                text-decoration: none;
+                display: block;
+
+                &:hover {
+                    background-color: #10c9aa;
+                    transition: all 10ms;
+                }
+                color: white;
+
+                @include max-1199 {
+                    padding: 18px 63px;
+                }
+
+                @include max-991 {
+                    padding: 17px 55px;
+                }
+
+                @include max-767 {
+                    font-size: 11px;
+                    line-height: 16px;
+                    padding: 14px 42px;
+                }
+
+                @include max-575 {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 15px 40px;
+                }
+
+                @include max-425 {
+                    padding: 14px 32px;
+                }
+            }
+        }
+    }
+}
+// banner end

@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/destination-slider",
+	"version": "0.1.0",
+	"title": "Destination Slider",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"Heading": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
+		  },
+		"Content": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "p"
+		}
+	  },
+	"textdomain": "destination-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

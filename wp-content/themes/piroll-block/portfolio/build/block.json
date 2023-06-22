@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "portfolio/portfolio",
+  "version": "0.1.0",
+  "title": "Portfolio",
+  "category": "widgets",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "postsToShow": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "supports": {
+    "align": true,
+    "html": false
+  },
+  "textdomain": "portfolio",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

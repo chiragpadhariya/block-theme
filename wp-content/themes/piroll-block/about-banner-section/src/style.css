@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.about-banner {
+  background-color: #3e3e3e;
+}
+
+.about-banner__inner {
+  padding: 100px 0;
+}
+
+.about-banner__inner_heading h1 {
+  color: white !important;
+  font-size: 38px !important;
+  line-height: 45px;
+  font-family: "Montserrat";
+  font-weight: 700 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 15px;
+}
+
+.about-banner__inner_text p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

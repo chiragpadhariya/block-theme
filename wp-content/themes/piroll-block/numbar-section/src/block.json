@@ -1,0 +1,91 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/numbar-section",
+	"version": "0.1.0",
+	"title": "Numbar Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+	  "mediaID1": {
+		"type": "number",
+		"default": null
+	  },
+	  "mediaURL1": {
+		"type": "string",
+		"default": null
+	  },
+	  "mediaID2": {
+		"type": "number",
+		"default": null
+	  },
+	  "mediaURL2": {
+		"type": "string",
+		"default": null
+	  },
+	  "mediaID3": {
+		"type": "number",
+		"default": null
+	  },
+	  "mediaURL3": {
+		"type": "string",
+		"default": null
+	  },
+	  "mediaID4": {
+		"type": "number",
+		"default": null
+	  },
+	  "mediaURL4": {
+		"type": "string",
+		"default": null
+	  },
+	  "heading01": {
+		"type": "string",
+		"source": "html",
+		"selector": "h3"
+	  },
+	  "heading02": {
+		"type": "string",
+		"source": "html",
+		"selector": "h3"
+	  },
+	  "heading03": {
+		"type": "string",
+		"source": "html",
+		"selector": "h3"
+	  },
+	  "heading04": {
+		"type": "string",
+		"source": "html",
+		"selector": "h3"
+	  },
+	  "headingtext01": {
+		"type": "string",
+		"source": "html",
+		"selector": "p"
+	  },
+	  "headingtext02": {
+		"type": "string",
+		"source": "html",
+		"selector": "p"
+	  },
+	  "headingtext03": {
+		"type": "string",
+		"source": "html",
+		"selector": "p"
+	  },
+	  "headingtext04": {
+		"type": "string",
+		"source": "html",
+		"selector": "p"
+	  }
+	},
+	"textdomain": "numbar-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+  }

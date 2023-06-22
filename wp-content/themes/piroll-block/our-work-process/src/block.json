@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.block-editor.org/",
+	"apiVersion": 2,
+	"name": "create-block/our-work-process",
+	"version": "0.1.0",
+	"title": "Our Work Process",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
+		  },
+		"content": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "p"
+		},
+		"buttonText": {
+		  "type": "string",
+		  "source": "text",
+		  "selector": "a.button"
+		},
+		"mediaID": {
+			"type": "number",
+			"default": null
+		  },
+		  "mediaURL": {
+			"type": "string",
+			"default": null
+		  },
+		  "editorURL": {
+            "type": "string"
+        }
+	},
+	"textdomain": "our-work-process",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

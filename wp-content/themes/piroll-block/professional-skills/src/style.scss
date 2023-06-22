@@ -1,0 +1,182 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+
+// skills section start
+
+.skills {
+    background-color: #dddddd!important;
+
+    &__image {
+      
+
+        img {
+            width: 570px;
+            height: 538px;
+
+            @include max-1199 {
+                width: 370px;
+                height: 485px;
+            }
+
+            @include max-991 {
+                width: 370px;
+                height: 410px;
+            }
+
+            @include max-767 {
+                width: 370px;
+                height: 360px;
+            }
+
+            @include max-425 {
+                width: 170px;
+                height: 300px;
+            }
+        }
+    }
+
+    &__inner {
+        padding: 130px 40px 130px 110px;
+        background-color: #f8f9f9!important;
+        @include max-1199 {
+            padding: 100px 35px 100px 70px;
+        }
+
+        @include max-991 {
+            padding: 70px 25px 70px 40px;
+        }
+
+        @include max-767 {
+            padding: 60px 80px 40px 140px;
+        }
+        @include max-575 {
+            padding: 55px 40px 32px 40px;
+        }
+        @include max-425 {
+            padding: 40px 20px 15px 20px;
+        }
+
+        &_heading {
+            h4 {
+                color: #171717;
+                font-size: 30px;
+                line-height: 35px;
+                font-family: "Montserrat";
+                font-weight: 600;
+                padding-bottom: 27px;
+
+                @include max-1199 {
+                    font-size: 27px;
+                    line-height: 32px;
+                }
+
+                @include max-991 {
+                    font-size: 24px;
+                    line-height: 32px;
+                    padding-bottom: 20px;
+                    margin-bottom: 0;
+                }
+
+                @include max-575 {
+                    font-size: 21px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        &_title {
+            padding-bottom: 30px;
+            @include max-575 {
+                padding-bottom: 18px;
+            }
+            h5 {
+                text-transform: uppercase;
+                font-size: 12px;
+                line-height: 18px;
+                font-family: "Montserrat";
+                font-weight: 550;
+                margin-bottom: 0;
+                color: #000000;
+
+                @include max-991 {
+                    font-size: 11px;
+                    line-height: 17px;
+                }
+                @include max-575 {
+                    font-size: 11px;
+                    line-height: 35px;
+                }
+                span {
+                    padding-left: 15px;
+                    font-size: 13px;
+                    line-height: 18px;
+                    font-family: "Montserrat";
+                    font-weight: 550;
+                }
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                background-color: #dddddd!important;
+
+                @include max-1199 {
+                    width: 90%;
+                }
+
+                @include max-767 {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+ 
+#skills__inner_title--one{
+	padding-bottom: 10px;
+	margin-top: 35px;
+	border-bottom: 3px solid #d8d8d8;
+	position: relative;
+	&::before {
+		content: "";
+		top: 30px;
+		position: absolute;
+		border-bottom: 3px solid #10c9c3;
+		width: calc( 100% - 25% );
+	}
+}
+#skills__inner_title--two{
+	padding-bottom: 10px;
+			margin-top: 35px;
+			border-bottom: 3px solid #d8d8d8;
+			position: relative;
+	&::before {
+		content: "";
+		top: 30px;
+		position: absolute;
+		border-bottom: 3px solid #10c9c3;
+		width: calc( 100% - 10% );
+	}
+}
+#skills__inner_title--three{
+	padding-bottom: 10px;
+	margin-top: 35px;
+	border-bottom: 3px solid #d8d8d8;
+	position: relative;
+	
+	&::before {
+		content: "";
+		top: 30px;
+		position: absolute;
+		border-bottom: 3px solid #10c9c3;
+		width: calc( 100% - 35% );
+	}
+}

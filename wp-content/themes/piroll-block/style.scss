@@ -1,0 +1,450 @@
+/*
+Theme Name: pirollcompany
+Description: This is the custom theme.
+Author: qrolic
+*/
+
+// costom css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p,
+ul {
+    margin-bottom: 0 !important;
+}
+
+// .h1, .h2, .h3, h1, h2, h3 {
+//     margin: 0!important;
+//     padding: 0!important;
+//     font-size: 20px!important;
+//     }
+a {
+    text-decoration: none!important;
+}
+// variable
+@import "./assets/css/variable/variable.scss";
+
+//header start 
+@import "./assets/css/layout/_header.scss";
+//header end
+
+//sidebar start
+@import "./assets/css/layout/_sidebar.scss";
+//sidebar end
+//header start 
+@import "./assets/css/layout/_footer.scss";
+//header end
+
+
+
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+// .block-editor-block-list__layout  {
+//     position:static !important; 
+// }
+// .wp-block-navigation-item__content {
+//     text-decoration: none;
+// }
+// .editor-styles-wrapper .is-layout-constrained {
+//      margin-right: 1px !important; 
+//      margin-left: 1px !important;
+// }
+
+.portfolio {
+    &__inner {
+        P {
+
+            a {
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 17px;
+                font-family: "Montserrat";
+                display: block;
+
+                text-transform: uppercase;
+                text-align: center;
+                padding: 25px 0;
+                color: #8e8e8e;
+                font-weight: 700;
+                background-color: #f5f5f5;
+
+                &:hover {
+                    background-color: #373737;
+                    transition: all 666ms;
+                    color: whitesmoke;
+                }
+
+                @include max-767 {
+                    font-size: 11px;
+                    line-height: 16px;
+                    padding: 20px 0;
+                }
+
+                @include max-575 {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 17px 0;
+                }
+
+            }
+
+        }
+
+        &_box {
+            display: flex !important;
+
+            img {
+                &:hover {}
+            }
+        }
+    }
+}
+
+.wp-block-post-featured-image {
+
+    img {
+        width: 100%;
+
+        &:hover {
+            content: url("./assets/image/hover.png");
+        }
+    }
+
+}
+
+.wp-block-post-featured-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+.wp-block-post-template {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+
+    li {
+        width: 25% !important;
+    }
+}
+
+.col-lg-12 {
+    padding: 0px !important;
+}
+
+.wp-block-post-author__avatar {
+    img {
+        display: none !important;
+    }
+}
+
+
+// portfolio single page details start
+.details-main {
+    &__inner {
+        padding: 100px 90px 100px 110px;
+
+        @include max-1199 {
+            padding: 90px 70px 90px 40px;
+        }
+
+        @include max-991 {
+            padding: 80px 60px 80px 30px;
+        }
+
+        @include max-767 {
+            padding: 70px 50px 70px 25px;
+        }
+
+        @include max-575 {
+            padding: 60px 40px 60px 20px;
+        }
+
+        @include max-425 {
+            padding: 40px 30px 40px 15px;
+        }
+
+        &_heading {
+            padding-bottom: 15px;
+
+            h4 {
+                font-family: "Montserrat";
+                font-weight: 500 !important;
+                font-size: 38px !important;
+                line-height: 42px;
+
+                @include max-1199 {
+                    font-size: 36px;
+                    line-height: 40px;
+                }
+
+                @include max-991 {
+                    font-size: 33px;
+                    line-height: 38px;
+                }
+
+                @include max-767 {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+
+                @include max-575 {
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+
+                @include max-425 {
+                    font-size: 25px;
+                    line-height: 32px;
+                }
+            }
+
+            color: #171717 !important;
+        }
+
+        &_text {
+            font-family: "NunitoSans-Regular";
+
+            p {
+                font-size: 16px !important;
+                line-height: 22px !important;
+
+                @include max-1199 {
+                    font-size: 15px;
+                    line-height: 21px;
+                }
+
+                @include max-575 {
+                    font-size: 13px;
+                    line-height: 18px;
+                }
+            }
+
+            padding-bottom: 25px;
+        }
+
+        &_list {
+
+            &--one,
+            &--two,
+            &--three {
+                padding-bottom: 10px;
+
+
+                p {
+                    font-size: 18px !important;
+                    line-height: 25px !important;
+                    padding-right: 15px !important;
+
+                    @include max-1199 {
+                        font-size: 17px;
+                        line-height: 24px;
+                    }
+
+                    @include max-991 {
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+
+                    @include max-767 {
+                        font-size: 15px;
+                        line-height: 22px;
+                    }
+
+                    @include max-575 {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+                    @include max-425 {
+                        font-size: 13px;
+                        line-height: 19px;
+                    }
+                }
+
+                p {
+                    font-family: "NunitoSans-Regular";
+                    font-size: 16px !important;
+                    line-height: 22px !important;
+                    color: #787878 !important;
+                    padding-right: 60px !important;
+
+                    @include max-991 {
+                        font-size: 15px;
+                        line-height: 21px;
+                    }
+
+                    @include max-575 {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+                    @include max-425 {
+                        font-size: 13px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__img {
+        img {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+}
+
+.portfolio-pagination {
+    padding: 35px 0;
+
+    &-right {
+        display: inline;
+        float: right;
+
+        a {
+            background-color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: #1d1d1d;
+            line-height: 15px;
+
+            @include max-575 {
+                font-size: 10px;
+            }
+
+            span {
+                padding-left: 10px;
+                text-align: center;
+                font-size: 12px;
+                color: #1d1d1d;
+
+                @include max-575 {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    &-left {
+        display: inline;
+
+        a {
+            border: 0;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: "Montserrat-medium";
+            font-size: 12px;
+            line-height: 15px;
+            color: #1d1d1d;
+            text-decoration: none;
+
+            @include max-575 {
+                font-size: 10px;
+            }
+
+            span {
+                padding-right: 10px;
+                font-size: 12px;
+                color: #1d1d1d;
+                text-align: center;
+
+                @include max-575 {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+.wp-block-post-author,
+.wp-block-post-author__content {
+    display: inline-block !important;
+
+    p {
+        display: inline-block !important;
+        padding-top: 10px;
+        font-size: 35px;
+        text-transform: uppercase!important;
+        font-size: 16px!important;
+    }
+}
+
+.wp-block-heading {
+    display: inherit;
+}
+
+.details-main__inner_list--three {
+    display: inline-block !important;
+    h5{
+        text-transform: uppercase;
+      
+        font-size: 16px!important;
+    }
+
+    p {
+        
+        display: inline-block !important;
+    }
+}
+
+.details-main__inner_list--two {
+    p {
+        display: inline-block !important;
+        padding-right: 10px!important;
+        text-transform: uppercase;
+        color: black!important;
+        font-size: 18px!important;
+    }
+
+}
+
+.wp-block-post-date {
+    display: inline-block !important;
+
+    time {
+        display: inline-block !important;
+    }
+}
+
+// .slick-dots {
+//     li {
+//         button {
+//             color: #f1f1f1!important;
+//         }
+//     }
+// }
+// .slick-active{
+//     color: white!important;
+//     background-color: #f5f5f5!important;
+// }
+// .slick-dots{
+//     li{
+      
+//         color: white!important;
+//     }
+// }
+
+// .slick-dots li.slick-active button:before {
+//     opacity: .75;
+//     color: #000;
+// }
+.slick-dots li button:before {
+    color: white!important;
+}
+.col-lg-1{
+    padding: 0!important;
+   
+    text-transform: uppercase;
+}

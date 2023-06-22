@@ -1,0 +1,25 @@
+.logos {
+    background-color: #ffffff;
+
+    &__inner {
+        padding: 60px 0;
+
+        &_box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            img {
+               
+            }
+            button {
+              border: 0;
+              color: red!important;
+              top: 15px;
+              position: absolute;
+              background-color: #ffffff;
+            }
+        }
+    }
+}

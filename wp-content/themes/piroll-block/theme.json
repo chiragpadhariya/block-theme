@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "settings": {
+        "appearanceTools": "1",
+        "color": {
+            "custom": "1",
+            "customGradient": "1",
+            "link": "1"
+        },
+        "typography": {
+            "customFontSize": "1",
+            "customLineHeight": "1",
+            "dropCaps": "1"
+        },
+        
+        "spacing": [
+            {
+                "units": [
+                    "px",
+                    "em",
+                    "rem",
+                    "vh",
+                    "vw"
+                ]
+            }
+        ]
+    }
+}

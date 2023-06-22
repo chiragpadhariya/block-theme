@@ -1,0 +1,129 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+//numbar section start
+.numbar {
+    background-color: #10c9c3;
+
+    &__inner {
+        padding: 100px 0;
+
+        @include max-1199 {
+            padding: 85px 0;
+        }
+
+        @include max-991 {
+            padding: 70px 0 30px 0;
+        }
+
+        @include max-575 {
+            padding: 50px 0 30px 0;
+        }
+
+        @include max-575 {
+            padding: 40px 0 30px 0;
+        }
+
+        &_deatils {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            width: 100%;
+            @include max-575 {
+                justify-content: center;
+                
+            }
+    
+        }
+
+        &_box {
+            width: 25%;
+            display: flex;
+
+            @include max-991 {
+                width: 33.33%;
+                padding-bottom: 20px;
+            }
+
+            @include max-767 {
+                width: 50%;
+                padding-bottom: 20px;
+            }
+
+            @include max-575 {
+                width: 100%;
+                padding-bottom: 20px;
+                display: flex;
+                padding-left: 130px;
+            }
+
+            @include max-425 {
+                padding-bottom: 20px;
+                padding-left: 20px;
+            }
+
+            &--image {
+                display: inline-block;
+                img {
+                    padding-right: 25px;
+                    padding-top: 27px;
+                    display: flex;
+                    align-items: center;
+
+                    @include max-991 {
+                        padding-right: 18px;
+                    }
+                }
+            }
+
+            &--detail {
+                display: inline-block;
+                &-digit {
+                    color: white;
+                    font-size: 18px!important;
+                    line-height: 23px;
+                    font-family: "Montserrat";
+                    font-weight: 500!important;
+                    
+
+                    @include max-991 {
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+
+                    @include max-425 {
+                        font-size: 14px;
+                        line-height: 19px;
+                    }
+                }
+
+                &-text {
+                    color: white;
+                    font-size: 12px!important;
+                    line-height: 22px!important;
+                    font-family: "Montserrat";
+                    font-weight: 500!important;
+                    text-transform: uppercase;
+
+                    @include max-991 {
+                        font-size: 11px;
+                        line-height: 20px;
+                    }
+
+                    @include max-425 {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//numbar section end

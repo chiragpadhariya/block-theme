@@ -1,0 +1,116 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ // variable
+@import "../../assets/css/variable/variable.scss";
+
+
+//banner section start
+.about-banner {
+    background-color: #3e3e3e!important;
+
+    &__inner {
+        padding: 100px 0!important;
+
+        @include max-1199 {
+            padding: 90px 0;
+        }
+
+        @include max-991 {
+            padding: 80px 0;
+        }
+
+        @include max-767 {
+            padding: 70px 0;
+        }
+
+        @include max-575 {
+            padding: 60px 0;
+        }
+
+        @include max-425 {
+            padding: 50px 0;
+        }
+
+        &_heading {
+            h5 {
+                color: white!important;
+                font-size: 38px!important;
+                line-height: 45px!important;
+                font-family: "Montserrat"!important;
+                font-weight: 700!important;
+                display: flex!important;
+                justify-content: center;
+                padding-bottom: 15px!important;
+
+                @include max-1199 {
+                    font-size: 36px;
+                    line-height: 43px;
+                }
+
+                @include max-991 {
+                    font-size: 33px;
+                    line-height: 41px
+                }
+
+                @include max-767 {
+                    font-size: 31px;
+                    line-height: 38px
+                }
+
+                @include max-575 {
+                    font-size: 28px;
+                    line-height: 35px;
+                    padding-bottom: 5px;
+                }
+
+                @include max-425 {
+                    font-size: 26px;
+                    line-height: 32px
+                }
+            }
+        }
+
+        &_text {
+            p {
+                color: white!important;
+                font-size: 18px!important;
+                line-height: 25px!important;
+                display: flex!important;
+                justify-content: center!important;
+                text-align: center!important;
+
+                @include max-1199 {
+                    font-size: 17px;
+                    line-height: 24px;
+                }
+
+                @include max-991 {
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+
+                @include max-575 {
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+
+                @include max-425 {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+
+                br {
+                    @include max-575 {
+                        display: none;
+                    }
+                }
+
+                font-family:"NunitoSans-Regular";
+            }
+        }
+    }
+}

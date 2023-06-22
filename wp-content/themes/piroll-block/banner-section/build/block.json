@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/banner-section",
+  "version": "0.1.0",
+  "title": "Banner Section",
+  "category": "widgets",
+  "icon": "cover-image",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1"
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "buttonText": {
+      "type": "string",
+      "source": "text",
+      "selector": ".button-text"
+    },
+    "buttonURL": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href"
+    }
+  },
+  "textdomain": "banner-section",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

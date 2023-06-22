@@ -1,0 +1,141 @@
+ // variable
+@import "../../assets/css/variable/variable.scss";
+
+// work-process section start
+.work-process {
+    &__inner {
+        padding: 80px 0 600px 0;
+
+        @include max-575 {
+            padding: 50px 20px 550px 20px;
+
+        }
+
+        &_heading {
+            h4 {
+                font-family: "Montserrat";
+                font-weight: 620;
+                font-size: 30px;
+                line-height: 35px;
+                display: flex;
+                justify-content: center;
+
+                @include max-991 {
+                    font-size: 27px;
+                    line-height: 32px;
+                    margin-bottom: 0;
+                }
+
+                @include max-767 {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                @include max-575 {
+                    font-size: 23px;
+                    line-height: 28px;
+                }
+
+                @include max-575 {
+                    font-size: 21px;
+                    line-height: 26px;
+                }
+            }
+        }
+
+        &_text {
+            p {
+                font-family: "NunitoSans-Regular";
+                font-size: 16px;
+                line-height: 28px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                padding-bottom: 25px;
+
+                @include max-991 {
+                    font-size: 15px;
+                    line-height: 25px;
+                    padding-bottom: 20px;
+                }
+
+                @include max-767 {
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding-bottom: 17px;
+                }
+
+                @include max-575 {
+                    font-size: 12px;
+                    line-height: 20px;
+                    padding-bottom: 15px;
+                }
+
+                @include max-425 {
+                    font-size: 11px;
+                    line-height: 20px;
+                    padding-bottom: 15px;
+                }
+
+                br {
+                    @include max-425 {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &_video {
+            position: relative;
+            img { 
+                background-size: 100%;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 1150px;
+                height: 600px;
+                // top: 210px;
+                // left: 45%;
+
+                // @include max-1199 {
+                //     top: 210px;
+                //     left: 43%;
+                // }
+
+                // @include max-991 {
+                //     top: 210px;
+                //     left: 41%;
+                // }
+
+                // @include max-767 {
+                //     top: 210px;
+                //     left: 38%;
+                // }
+
+                // @include max-575 {
+                //     top: 200px;
+                //     left: 36%;
+                // }
+
+                // @include max-425 {
+                //     top: 200px;
+                //     left: 34%;
+                // }
+            }
+
+            iframe {
+                // position: absolute;
+                // top: 0;
+                // left: 0;
+                // opacity: 0.1;
+                display:none;
+                width: 1150px;
+                height: 600px;
+                
+                bottom: 0;
+                // height: 520px;
+                // background-color: red !important; 
+                // z-index: 999999;
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.need-project__inner {
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .need-project__inner {
+    padding: 90px 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .need-project__inner {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .need-project__inner {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .need-project__inner {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .need-project__inner {
+    padding: 50px 0;
+  }
+}
+
+.need-project__inner_heading h5 {
+  font-family: "Montserrat";
+  font-weight: 550 !important;
+  font-size: 30px !important;
+  line-height: 35px !important;
+  color: #1d1d1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .need-project__inner_heading h5 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .need-project__inner_heading h5 {
+    font-size: 25px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .need-project__inner_heading h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+.need-project__inner_text p {
+  font-size: 16px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "NunitoSans-Regular";
+}
+
+@media screen and (max-width: 991px) {
+  .need-project__inner_text p {
+    font-size: 15px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .need-project__inner_text p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .need-project__inner_text p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .need-project__inner_text p br {
+    display: none;
+  }
+}
+
+.need-project__inner_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.need-project__inner_button button {
+  font-family: "Montserrat";
+  font-weight: 500;
+  background-color: #10c9c3;
+  color: white !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 17px;
+  padding: 13px 43px;
+  border: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .need-project__inner_button button {
+    font-size: 11px;
+  }
+}
+
+.need-project__inner_button button:hover {
+  background-color: #39b4af;
+  -webkit-transition: all 10ms;
+  transition: all 10ms;
+}
+/*# sourceMappingURL=editor.css.map */

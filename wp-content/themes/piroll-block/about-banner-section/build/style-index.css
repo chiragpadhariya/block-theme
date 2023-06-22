@@ -1,0 +1,35 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.about-banner {
+  background-color: #3e3e3e;
+}
+.about-banner__inner {
+  padding: 100px 0;
+}
+.about-banner__inner_heading h1 {
+  color: white !important;
+  font-size: 38px !important;
+  line-height: 45px;
+  font-family: "Montserrat";
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.about-banner__inner_text p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

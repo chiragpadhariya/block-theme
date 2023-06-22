@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-medium";
+  src: url(../font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url(../font/NunitoSans_7pt_Condensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url(../font/NunitoSans_7pt_Condensed-Bold.ttf);
+}
+/*# sourceMappingURL=variable.css.map */

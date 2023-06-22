@@ -1,0 +1,213 @@
+@import "./assets/css/variable/variable.scss";
+.footer {
+    background-color: #141414;
+    color: white!important;
+
+    &__inner {
+        padding: 100px 0 70px 0;
+
+        @include max-1199 {
+            padding: 70px 0 50px 0;
+        }
+
+        @include max-991 {
+            padding: 50px 0 40px 0;
+        }
+
+        @include max-767 {
+            padding: 45px 0 30px 0;
+            text-align: center;
+        }
+
+        @include max-575 {
+            padding: 40px 85px 30px 55px;
+        }
+
+        @include max-425 {
+            padding: 30px 5px 20px 5px;
+        }
+
+        &_company--details {
+            @include max-767 {
+                padding-bottom: 15px;
+            }
+
+            @include max-575 {
+                padding-left: 35px;
+            }
+
+            @include max-425 {
+                padding-left: 20px;
+            }
+
+            h4 {
+                text-decoration: none;
+                color: white!important;
+               
+                    a{
+                padding-top: 8px;
+                font-size: 18px;
+                line-height: 23px;
+                font-family: "Montserrat";
+                font-weight: 700;
+                padding-bottom: 20px;
+                text-decoration: none;
+                
+                @include max-991 {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+
+                @include max-767 {
+                    padding-bottom: 15px;
+                    line-height: 18px;
+                }
+            }
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 14px;
+                font-family: "NunitoSans-Regular";
+                font-weight: 500;
+                padding-bottom: 20px;
+                margin-bottom: 0;
+                color: #bcbcbc!important;
+
+                @include max-991 {
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+
+                @include max-767 {
+                    padding-bottom: 13px;
+                    line-height: 10px;
+                }
+            }
+        }
+
+        &_contact--details {
+           
+            p {
+
+                a {
+                    @include max-425 {
+                        padding-left: 20px;
+                    }
+                    padding-left: 35px!important;
+                    font-family:"NunitoSans-Regular";
+                    color: #bcbcbc!important;
+                    font-size: 15px!important;
+                    line-height: 29px;
+                    text-decoration: none!important;
+
+                    @include max-991 {
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+
+        &_theme--details {
+            display: inline-block;
+            @include max-767 {
+                display: block;
+            }
+            p {
+                list-style: none;
+               
+                    @include max-767 {
+                        padding-left: 0!important;
+                        padding-right: 25px;
+                    }
+                    @include max-575{
+                        padding-left: 2rem!important;;
+                        padding-right: 0px;
+                    }
+                
+                    a {
+                        font-family: "NunitoSans-Regular";
+                        font-size: 15px!important;
+                        line-height: 29px;
+                        color: #bcbcbc!important;
+                        text-decoration: none;
+                        display: inline-block;
+
+                        @include max-991 {
+                            font-size: 14px;
+                            line-height: 26px;
+                        }
+                        
+                        @include max-767 {
+                            margin-left: 0;
+                            margin-right: 25px;
+                        }
+                    
+                }
+            }
+        }
+        &_update--details {
+            display: inline-block;
+            @include max-767 {
+               display: block;
+            }
+            p {
+                @include max-767 {
+                    padding-left: 0!important;
+                    padding-right: 25px;
+                }
+                @include max-575{
+                    padding-left: 2rem!important;;
+                    padding-right: 0px;
+                }
+                list-style: none;
+
+               
+                    a {
+                        font-family: "NunitoSans-Regular";
+                        font-size: 15px!important;
+                        line-height: 29px;
+                        color: #bcbcbc!important;
+                        text-decoration: none;
+
+                        @include max-991 {
+                            font-size: 14px;
+                            line-height: 26px;
+                        }
+                    
+                }
+            }
+        }
+
+        &_social--details {
+            p {
+                list-style: none;
+                text-decoration: none;
+
+               
+                    a {
+                        font-family: "NunitoSans-Regular";
+                        font-size: 15px!important;
+                        line-height: 29px;
+                        color: #bcbcbc!important;
+                        text-decoration: none;
+
+                        @include max-991 {
+                            font-size: 14px;
+                            line-height: 26px;
+                        }
+                    
+                }
+            }
+        }
+
+    }
+}
+
+.editor-styles-wrapper a {
+     text-decoration: none!important; 
+}
+* a p {
+    text-decoration: none;
+}

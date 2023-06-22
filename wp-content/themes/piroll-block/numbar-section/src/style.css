@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.numbar {
+  background-color: #10c9c3;
+}
+
+.numbar__inner {
+  padding: 100px 0;
+}
+
+.numbar__inner_deatils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+}
+
+.numbar__inner_box {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.numbar__inner_box--image {
+  padding-top: 30px;
+}
+
+.numbar__inner_box--image img {
+  padding-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.numbar__inner_box--detail-digit {
+  color: white;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.numbar__inner_box--detail-digit-text {
+  color: white;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+//need a project section start
+.need-project {
+    &__inner {
+        padding: 100px 0;
+
+        @include max-1199 {
+            padding: 90px 0;
+        }
+
+        @include max-991 {
+            padding: 80px 0;
+        }
+
+        @include max-767 {
+            padding: 70px 0;
+        }
+
+        @include max-575 {
+            padding: 60px 0;
+        }
+
+        @include max-425 {
+            padding: 50px 0;
+        }
+
+        &_heading {
+            h5{
+                font-family: "Montserrat";
+                font-weight: 550!important;
+                font-size: 30px!important;
+                line-height: 35px!important;
+                color: #1d1d1d;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 10px;
+
+                @include max-991 {
+                    font-size: 27px;
+                    line-height: 33px;
+                }
+
+                @include max-767 {
+                    font-size: 25px;
+                    line-height: 31px;
+                }
+
+                @include max-575 {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        &_text {
+            p {
+                font-size: 16px;
+                line-height: 29px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+
+                @include max-991 {
+                    font-size: 15px;
+                    line-height: 29px;
+                }
+
+                @include max-767 {
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+
+                @include max-767 {
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+
+                br {
+                    @include max-575 {
+                        display: none;
+                    }
+                }
+
+                font-family:"NunitoSans-Regular";
+            }
+        }
+
+        &_button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 20px;
+
+            button {
+                font-family: "Montserrat";
+                font-weight: 500;
+                background-color: #10c9c3;
+                color: white!important;
+                font-size: 12px;
+                text-transform: uppercase;
+                line-height: 17px;
+                padding: 13px 43px;
+                border: 0;
+
+                @include max-767 {
+                    font-size: 11px;
+                }
+
+                &:hover {
+                    background-color: #39b4af;
+                    transition: all 10ms;
+                }
+            }
+        }
+    }
+}
+
+//need a project section end

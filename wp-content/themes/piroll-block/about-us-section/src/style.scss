@@ -1,0 +1,138 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// variable
+@import "../../assets/css/variable/variable.scss";
+
+
+// about us section start
+
+.about-us {
+	&__inner {
+		padding: 100px 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		@include max-1199 {
+			padding: 90px 0;
+		}
+
+		@include max-991 {
+			padding: 80px 0;
+		}
+
+		@include max-767 {
+			padding: 70px 0;
+		}
+
+		@include max-575 {
+			padding: 60px 0;
+		}
+
+		@include max-575 {
+			padding: 50px 0;
+		}
+
+		&_details {
+			&--heading {
+				h2 {
+					font-size: 30px;
+					line-height: 35px;
+					color: #191919;
+					font-family: "Montserrat";
+					font-weight: 600;
+					display: flex;
+					text-align: center;
+					justify-content: center;
+
+					@include max-991 {
+						font-size: 27px;
+						line-height: 33px;
+					}
+
+					@include max-767 {
+						font-size: 23px;
+						line-height: 28px;
+					}
+
+					@include max-575 {
+						font-size: 21px;
+						line-height: 26px;
+						margin: 0 20px;
+					}
+
+					@include max-425 {
+						font-size: 19px;
+						line-height: 23px;
+						margin: 0 10px;
+					}
+				}
+			}
+
+			&--text {
+				padding: 10px 0 40px 0;
+
+				P {
+					font-size: 16px;
+					line-height: 21px;
+					display: flex;
+					text-align: center;
+					color: #787878;
+
+					@include max-991 {
+						font-size: 15px;
+						line-height: 20px;
+					}
+
+					@include max-767 {
+						font-size: 14px;
+						line-height: 19px;
+					}
+
+					@include max-575 {
+						font-size: 13px;
+						line-height: 18px;
+						margin: 0 20px;
+					}
+
+					@include max-425 {
+						font-size: 12px;
+						line-height: 17px;
+						margin: 0 10px;
+					}
+
+					br {
+
+						@include max-767 {
+							display: none;
+							font-size: 14px;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+
+			&--autograph {
+				display: flex;
+				justify-content: center;
+				button {
+					color: red;
+					border: 0;
+					background-color: white;
+					position: absolute;
+					text-decoration: none!important;
+				}
+				img{
+					
+				}
+			}
+		}
+	}
+}
+
+// about us section en

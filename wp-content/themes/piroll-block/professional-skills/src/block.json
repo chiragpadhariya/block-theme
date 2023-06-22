@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/professional-skills",
+	"version": "0.1.0",
+	"title": "Professional Skills",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+	  "html": false
+	},
+	  "attributes": {
+		"Heading": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "h1"
+		},
+		"content": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "p"
+		},
+		"content2": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#skills__inner_title--two p "
+		}
+		,
+		"content3": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": "#skills__inner_title--three p"
+		}
+	  },
+	"textdomain": "professional-skills",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+  }
+  
